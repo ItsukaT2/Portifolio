@@ -6,13 +6,17 @@
 
 :root {
  /*ACTION*/  
-    --accent-color: #ad0031;
+    --accent-color: #ff0048;
 
  /*AWAY*/ 
-  --background-color: #1d1d1d;
+ /*background: rgb(83,0,0);
+ background: linear-gradient(211deg, rgba(83,0,0,1) 0%, rgba(121,9,9,1) 15%, rgba(0,169,203,1) 100%);
+ */
+ background: rgb(0,0,0);
+ background: radial-gradient(circle, rgba(0,0,0,1) 36%, rgba(0,123,126,1) 100%);
 
   /*INSIDE*/
-  --background-color-2: #00000052;
+  --background-color-2: #ff494952;
   --light-grey: rgb(194, 194, 194);
   --border-radius: 30px;
 }
@@ -127,12 +131,15 @@ h3 {
 
 .portfolio {
   display: flex;
-  background: var(--background-color-2);
+  background: rgba( 123, 123, 123, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   height: 80vh;
   width: 85vw;
   max-width: 1200px;
   border-radius: var(--border-radius);
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
 }
 
 /*=============== HEADER ===============*/
@@ -234,10 +241,12 @@ h3 {
 .content {
   /*border-radius: var(--border-radius);
   background: rgb(83, 83, 83);*/
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   border-radius: var(--border-radius);
-  backdrop-filter: blur(10px);
   width: 100%;
   height: 100%;
   overflow: auto;
