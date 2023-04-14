@@ -174,8 +174,8 @@ h3 {
   margin: 0 10px;
   transition: 0.2s linear;
   transition-property: background-color, color;*/
-
-  color: var(--clr);
+    padding: 10px;
+    color: var(--clr);
     z-index: 2;
     font-size: 2em;
     transition: 0.5s;
@@ -192,6 +192,17 @@ h3 {
   filter: drop-shadow(0 0 20px var(--clr)) drop-shadow(0 0 40px var(--clr))
      drop-shadow(0 0 60px var(--clr));
   
+}
+
+.see-more {
+  color: #fff;
+}
+
+.see-more:hover {
+  color: #527bff;
+  transition: 0.2s linear;
+  transition-property: background-color, color;
+  transform: scale(1.2);
 }
 
 .link-examples:hover {
@@ -409,7 +420,18 @@ h3 {
   margin: 50px 0;
 }
 
-/*=============== FORM ===============*/
+input
+{
+    padding: 2px;
+    background: none;
+    text-align: center;
+    border: none;
+    text-shadow: black 1px 1px 1px #919191,1px 2px 1px #919191,1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191;
+    font-size: larger;
+    font-weight: 700;
+}
+
+/*=============== FORM ===============*
 
 form {
   width: 100%;
@@ -479,6 +501,7 @@ textarea {
   transition-property: background-color, color;
   cursor: pointer;
 }
+*/
 
 /*=============== MEDIA QUERY ===============*/
 

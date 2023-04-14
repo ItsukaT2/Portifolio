@@ -166,7 +166,7 @@
           </div>
         </div>
 
-        <a href=" ">see more...</a>
+        <a href="https://github.com/ItsukaT2" class="see-more">see more...</a>
       </section>
 
       <!--=============== EXPERIENCE ===============-->
@@ -250,14 +250,28 @@
       <!--=============== CONTACT ===============-->
 
       <section class="content-card contact" id="contact">
-        <h1>Contact</h1>
-        <h2>Find me in</h2>
-        <a href=" "><img src="" alt="Dicord"></a>
-        <a href=" "><img src="" alt="Youtube"></a>
+        <h1>Contact</h1> <br>
+        <br>
+        <h2>Find me in</h2><br>
+        <br>
+        <h3>My Discord</h3>
+        <input id="text" value="Itsuka#8122" readonly style="color: #7289da;"/> <br>
+        <h3>My Youtube Channel</h3>
+        <a href="https://www.youtube.com/channel/UCLydYepr5Qj2GTOFBrdH_3Q"><p style=" color: #ff0000; font-size: larger;
+          font-weight: 700;">Youtube</p></a> <br>
         <a href=" "><img src="" alt="Twich"></a>
       </section>
     </div>
   </div>
 </div>
+
+<script>
+  function copyText() {
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+}
+</script>
 </body>
 </html>
